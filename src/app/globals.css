@@ -18,5 +18,8 @@
   .h4 {
     @apply text-[22px] font-semibold;
   }
-
+  @font-face {
+    font-family: "tahu";
+    src: url("../../public/Tahu.ttf");
+  }
   

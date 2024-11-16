@@ -34,41 +34,41 @@ export default function Intro() {
           >
             <Image
               src="/boy.png"
-              width="480"
-              height="480"
+              width="300"
+              height="300"
               alt="portrait"
               quality="100"
               priority={true}
               className="rounded-full object-cover shadow-xl"
             />
-          </motion.div> 
-
-          <motion.span
-            className="text-6xl absolute bottom-8 right-12"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              damping: 10,
-              duration: 0.2,
-            }}
-          >
-            👋
-          </motion.span>
+          </motion.div>
         </div>
       </div>
 
-      <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-      <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-        <span className="font-medium !leading-[1.5] ">Grow your business with a new website.</span>{" "}
-        <p className="text-[14px]">
-        Resonance is a full-service creative studio creating beautiful digital experiences and products.
-        </p>
-      </h1>
+      <Fade
+        direction="up"
+        delay={400}
+        cascade
+        damping={1e-1}
+        triggerOnce={true}
+      >
+        <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
+          <span className="font-medium !leading-[1.5] ">
+            {" "}
+            I’m a Frontend Developer
+          </span>{" "}
+          <p className="text-[14px]">
+            with a strong focus on building responsive, intuitive web
+            applications using React.js. I thrive on transforming detailed
+            designs into seamless, interactive user experiences that work
+            beautifully across all devices. With expertise in the MERN stack and
+            modern CSS frameworks, I create scalable, high-performance
+            applications that deliver on both functionality and aesthetics. I’m
+            passionate about coding clean, efficient solutions that keep users
+            engaged and make every interaction smooth and enjoyable.
+          </p>
+        </h1>
       </Fade>
-
-      
 
       <motion.div
         className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/mohamed-rhanmi/"
+          href="https://www.linkedin.com/in/samirberrichi/"
           target="_blank"
         >
           <BsLinkedin />
@@ -99,7 +99,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href=""
+          href="https://www.github.com/sberrich"
           target="_blank"
         >
           <FaGithubSquare />

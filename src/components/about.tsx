@@ -38,20 +38,20 @@ export default function About() {
               
 
               <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Mission</h3>
+                <h3 className="font-bold mt-6">   My Mission</h3>
               </Fade>
               <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
                 <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                We believe that a website is the foundation of a successful online presence, and our goal is to help businesses establish a strong digital presence. Our process begins with understanding your business goals.
+             
+I aim to create innovative, user-centric web experiences that serve as the foundation of impactful digital solutions. By merging creativity with technical expertise, I help individuals and businesses transform their ideas into functional, visually engaging websites. My journey begins with understanding your unique goals and aspirations.
                 </p>
               </Fade>
               <Fade direction="up" delay={800} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">Our Vision</h3>
+                <h3 className="font-bold mt-6">My Vision</h3>
               </Fade>
               <Fade direction="up" delay={1000} cascade damping={1e-1} triggerOnce={true}>
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  We then use this information to create a custom website that not only reflects your brand but also helps you achieve your business objectives. From responsive design to intuitive navigation, we focus on every detail.
-                  </p>
+                  To lead the creation of digital platforms that not only reflect individuality and brand identity but also drive meaningful engagement. Through responsive designs, seamless user experiences, and a passion for excellence, I envision contributing to a future where technology inspires connection, creativity, and growth.                  </p>
               </Fade>
                 
 
@@ -62,9 +62,9 @@ export default function About() {
           <div>
           <Fade direction="right" delay={600} cascade damping={1e-1} triggerOnce={true}>
           <Image
-              src="/about.png"
-              width="600"
-              height="600"
+              src="/boy1.png"
+              width="300"
+              height="300"
               alt="portrait"
               quality="100"
               priority={true}
