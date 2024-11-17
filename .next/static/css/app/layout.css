@@ -697,14 +697,8 @@ video {
 .bottom-5 {
   bottom: 1.25rem;
 }
-.bottom-8 {
-  bottom: 2rem;
-}
 .left-\[-35rem\] {
   left: -35rem;
-}
-.right-12 {
-  right: 3rem;
 }
 .right-5 {
   right: 1.25rem;
@@ -916,9 +910,6 @@ video {
 .justify-center {
   justify-content: center;
 }
-.justify-between {
-  justify-content: space-between;
-}
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -1099,10 +1090,6 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 .text-\[0\.7rem\] {
   font-size: 0.7rem;
