@@ -20,58 +20,92 @@ export default function About() {
       id="about"
     >
       <div className="container mx-auto">
-      <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-        <SectionHeading>
-          About Me
-        </SectionHeading>
-      </Fade>
-        
+        <Fade
+          direction="up"
+          delay={400}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
+          <SectionHeading>About Me</SectionHeading>
+        </Fade>
 
         <div className="grid xl:grid-cols-2 lg:text-start">
-
           <div className="flex-1">
             {/* Content */}
             <div className="text-lg mt-12 xl:mt-3">
               <div className="flex justify-start flex-col">
-              
-              
-              
-
-              <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">   My Mission</h3>
-              </Fade>
-              <Fade direction="up" delay={600} cascade damping={1e-1} triggerOnce={true}>
-                <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-             
-I aim to create innovative, user-centric web experiences that serve as the foundation of impactful digital solutions. By merging creativity with technical expertise, I help individuals and businesses transform their ideas into functional, visually engaging websites. My journey begins with understanding your unique goals and aspirations.
-                </p>
-              </Fade>
-              <Fade direction="up" delay={800} cascade damping={1e-1} triggerOnce={true}>
-                <h3 className="font-bold mt-6">My Vision</h3>
-              </Fade>
-              <Fade direction="up" delay={1000} cascade damping={1e-1} triggerOnce={true}>
+                <Fade
+                  direction="up"
+                  delay={400}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <h3 className="font-bold mt-6"> My Mission</h3>
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={600}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                  To lead the creation of digital platforms that not only reflect individuality and brand identity but also drive meaningful engagement. Through responsive designs, seamless user experiences, and a passion for excellence, I envision contributing to a future where technology inspires connection, creativity, and growth.                  </p>
-              </Fade>
-                
-
-
+                    I aim to create innovative, user-centric web experiences
+                    that serve as the foundation of impactful digital solutions.
+                    By merging creativity with technical expertise, I help
+                    individuals and businesses transform their ideas into
+                    functional, visually engaging websites. My journey begins
+                    with understanding your unique goals and aspirations.
+                  </p>
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={800}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <h3 className="font-bold mt-6">My Vision</h3>
+                </Fade>
+                <Fade
+                  direction="up"
+                  delay={1000}
+                  cascade
+                  damping={1e-1}
+                  triggerOnce={true}
+                >
+                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+                    To lead the creation of digital platforms that not only
+                    reflect individuality and brand identity but also drive
+                    meaningful engagement. Through responsive designs, seamless
+                    user experiences, and a passion for excellence, I envision
+                    contributing to a future where technology inspires
+                    connection, creativity, and growth.{" "}
+                  </p>
+                </Fade>
               </div>
             </div>
           </div>
           <div>
-          <Fade direction="right" delay={600} cascade damping={1e-1} triggerOnce={true}>
-          <Image
-              src="/boy1.png"
-              width="300"
-              height="300"
-              alt="portrait"
-              quality="100"
-              priority={true}
-              className="rounded-full mt-8 object-cover"
-            />
-          </Fade>
-          
+            <Fade
+              direction="right"
+              delay={600}
+              cascade
+              damping={1e-1}
+              triggerOnce={true}
+            >
+              <Image
+                src="/boy1.png"
+                width="300"
+                height="300"
+                alt="portrait"
+                quality="100"
+                priority={true}
+                className="rounded-full mt-8 object-cover"
+              />
+            </Fade>
           </div>
         </div>
       </div>
