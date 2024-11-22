@@ -10,6 +10,7 @@ import { useSectionInView } from "@/lib/useInView";
 export default function About() {
   const { ref } = useSectionInView("#about");
 
+  
   return (
     <motion.section
       className="max-w-[45rem] text-center mt-32 leading-8 mb-28 sm:mb-40 scroll-mt-28"
