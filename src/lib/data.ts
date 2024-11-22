@@ -17,10 +17,10 @@ export const links: Link[] = [
     nameEng: "Skills",
     hash: "#skills",
   },
-  {
-    nameEng: "Contact",
-    hash: "#contact",
-  },
+  // {
+  //   nameEng: "Contact",
+  //   hash: "#contact",
+  // },
 ];
 
 export const projectsData: ProjectInfo[] = [
