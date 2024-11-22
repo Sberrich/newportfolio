@@ -88,6 +88,7 @@ export default function Header({ links }: HeaderProps) {
             </motion.li>
           ))}
         </ul>
+        
       </motion.div>
       <motion.div></motion.div>
       <motion.div></motion.div>

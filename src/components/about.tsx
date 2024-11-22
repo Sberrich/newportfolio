@@ -52,12 +52,13 @@ export default function About() {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    I aim to create innovative, user-centric web experiences
-                    that serve as the foundation of impactful digital solutions.
-                    By merging creativity with technical expertise, I help
-                    individuals and businesses transform their ideas into
-                    functional, visually engaging websites. My journey begins
-                    with understanding your unique goals and aspirations.
+                    I strive to create innovative, user-centric web experiences
+                    that serve as the foundation for impactful digital
+                    solutions. By blending creativity with technical expertise,
+                    I help individuals and businesses transform their ideas into
+                    functional and visually engaging websites. My journey begins
+                    with understanding each client's unique goals and
+                    aspirations.
                   </p>
                 </Fade>
                 <Fade
@@ -77,12 +78,11 @@ export default function About() {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    To lead the creation of digital platforms that not only
-                    reflect individuality and brand identity but also drive
-                    meaningful engagement. Through responsive designs, seamless
-                    user experiences, and a passion for excellence, I envision
-                    contributing to a future where technology inspires
-                    connection, creativity, and growth.{" "}
+                    To transform ideas into digital realities that inspire and
+                    engage. By delivering innovative designs and intuitive
+                    experiences, I aim to build platforms that not only meet the
+                    needs of today but also anticipate the opportunities of
+                    tomorrow.
                   </p>
                 </Fade>
               </div>
@@ -97,13 +97,13 @@ export default function About() {
               triggerOnce={true}
             >
               <Image
-                src="/boy1.png"
-                width="300"
-                height="300"
+                src="/boy3.png"
+                width="250"
+                height="250"
                 alt="portrait"
                 quality="100"
                 priority={true}
-                className="rounded-full mt-8 object-cover"
+                className="rounded-full m-8 object-cover"
               />
             </Fade>
           </div>

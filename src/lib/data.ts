@@ -25,34 +25,34 @@ export const links: Link[] = [
 
 export const projectsData: ProjectInfo[] = [
   {
-    title: "Snowlake Theme",
+    title: "BankModernUI",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+      "This project proposes to integrate figma UI of bank ui",
+    tags: [ "Next.js", "Tailwind"],
     imageUrl: "/image1.png",
     link: "https://www.google.com",
   },
   {
-    title: "Budget App",
+    title: "HyperType",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+      "This project proposes to create a web application that allows the user to research and watch videos.",
+    tags: ["React", "MongoDB", "Mui", "NodeJS"],
     imageUrl: "/image2.png",
     link: "https://www.google.com",
   },
   {
-    title: "Storage App",
+    title: "Blogr UI integration",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
-    imageUrl: "/image3.png",
+      "challenge is to build out  landing page and get it looking as close to the design as possible",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: "/image3.jpg",
     link: "https://www.google.com",
   },
   {
-    title: "Missio Theme",
+    title: "Matcha",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NodeJS"],
+      " Matcha is 1337 project Web application allowing two potential lovers to meet,",
+    tags: ["React", "MongoDB", "AntDesign", "NodeJS"],
     imageUrl: "/image4.png",
     link: "https://www.google.com",
   },

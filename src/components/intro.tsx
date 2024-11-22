@@ -9,7 +9,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/useInView";
 import { useActiveSectionContext } from "@/containers/active-section";
 import { Mail } from "lucide-react";
-
+import LanguageSection from "./lang"
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -20,6 +20,7 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[75rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
+          
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -41,6 +42,8 @@ export default function Intro() {
               priority={true}
               className="rounded-full object-cover shadow-xl"
             />
+
+            
           </motion.div>
         </div>
       </div>
@@ -57,7 +60,7 @@ export default function Intro() {
             {" "}
             I’m a Frontend Developer
           </span>{" "}
-          <p className="text-[14px]">
+          <p className="text-[16px]">
             with a strong focus on building responsive, intuitive web
             applications using React.js. I thrive on transforming detailed
             designs into seamless, interactive user experiences that work

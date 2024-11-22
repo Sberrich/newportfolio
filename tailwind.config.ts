@@ -15,6 +15,9 @@ const config: Config = {
       },
       fontFamily: {
         Sora: [`var(--font-sora)`, 'sans-serif'],
+      
+          handwritten: ['"Dancing Script"', 'cursive'],
+        
       },
     },
   },
