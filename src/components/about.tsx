@@ -78,11 +78,7 @@ export default function About() {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    To transform ideas into digital realities that inspire and
-                    engage. By delivering innovative designs and intuitive
-                    experiences, I aim to build platforms that not only meet the
-                    needs of today but also anticipate the opportunities of
-                    tomorrow.
+                  To transform ideas into digital realities that inspire and engage. By delivering innovative designs and intuitive experiences, I aim to build platforms that not only meet the needs of today but also anticipate the opportunities of tomorrow.
                   </p>
                 </Fade>
               </div>

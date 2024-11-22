@@ -42,8 +42,6 @@ export default function Intro() {
               priority={true}
               className="rounded-full object-cover shadow-xl"
             />
-
-            
           </motion.div>
         </div>
       </div>
@@ -81,7 +79,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <Link
+        <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"
           onClick={() => {
@@ -90,7 +88,7 @@ export default function Intro() {
           }}
         >
           Connect <Mail color={"#9ca3af"} />
-        </Link> */}
+        </Link>
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
